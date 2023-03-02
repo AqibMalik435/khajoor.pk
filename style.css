@@ -1,0 +1,44 @@
+.iconContainer i{
+    font-size: 30px;
+    line-height: 52px;
+}
+.iconContainer p{
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+html{
+    scroll-behavior: smooth ;
+}
+.starContainer i{
+    color: orange;
+}
+.productCard img{
+    height: 200px !important;
+    width: 100%;
+    object-fit: cover;
+}
+.productCard{
+    transition: 1s all;
+    cursor: pointer;
+}
+.productCard:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px 0px #00000059;
+}
+
+.carousel-control-next{
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 10px;
+}
+.carousel-control-prev{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    border-radius: 10px;
+
+}
+.footerIcons{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.my-6{
+    margin: 7rem auto;
+}
